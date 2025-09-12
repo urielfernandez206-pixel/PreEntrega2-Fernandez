@@ -1,0 +1,36 @@
+.carrusel-fondo {
+    width: 100%;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+.carrusel-img {
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+main h2{
+    text-align: center;
+}
+.Destacados{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.Destacados-1, .Destacados-2, .Destacados-3, .Destacados-4{
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+.Destacados-1 img, .Destacados-2 img, .Destacados-3 img, .Destacados-4 img{
+    max-width: 100%;
+    height: auto;
+}

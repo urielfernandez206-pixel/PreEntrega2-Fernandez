@@ -1,3 +1,7 @@
+.custom-navbar-bg {
+  background-color: #F5F5F6 !important;
+}
+
 .carrusel-fondo {
     width: 100%;
     background-color: #E0E0E0;
@@ -25,7 +29,7 @@ main h2{
 }
 
 .Destacados-1, .Destacados-2, .Destacados-3, .Destacados-4{
-    border: 5px solid black;
+    border: 3px solid black;
     padding: 10px;
     text-align: center;
     width: 300px;
@@ -33,4 +37,12 @@ main h2{
 .Destacados-1 img, .Destacados-2 img, .Destacados-3 img, .Destacados-4 img{
     max-width: 100%;
     height: auto;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
 }

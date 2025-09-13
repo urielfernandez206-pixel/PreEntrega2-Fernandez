@@ -33,6 +33,7 @@ main h2{
     padding: 10px;
     text-align: center;
     width: 300px;
+    border-radius: 15px;
 }
 .Destacados-1 img, .Destacados-2 img, .Destacados-3 img, .Destacados-4 img{
     max-width: 100%;
@@ -45,4 +46,29 @@ footer{
     color: white;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.producto {
+  background-color: white;  
+  border: 3px solid black;
+  padding: 4px;
+  text-align: center;
+  width: 300px;
+  border-radius: 15px; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.producto img {
+  max-width: 100%;
+  height: auto;
+}      
+
+.producto-container {
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  justify-items: center;
+  margin: 10px 0;
 }

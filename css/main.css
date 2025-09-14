@@ -99,3 +99,12 @@ footer{
   object-fit: cover;     
 }
 
+.contacto{
+    text-align: center;
+    margin: 20px;
+}
+
+.map-container{
+  border-radius: 10px;
+  overflow: hidden;
+}

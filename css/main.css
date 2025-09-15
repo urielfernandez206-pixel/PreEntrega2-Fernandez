@@ -54,7 +54,7 @@ footer{
     background-color: black;
     color: white;
     padding: 10px 0;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 .producto {
@@ -107,4 +107,27 @@ footer{
 .map-container{
   border-radius: 10px;
   overflow: hidden;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.index{
+    font-family: 'Cormorant Garamond', serif;
+    font: 1em sans-serif;
+}
+
+.productos{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.nosotros{
+    font-family: 'Roboto Slab', serif;
+}
+
+.contacto{
+    font-family: 'Libertinus Serif Display', serif;
 }

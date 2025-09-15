@@ -73,19 +73,45 @@ main h2{
   margin-bottom: 20px;
 }
 
-.producto img {
-  max-width: 100%;
-  height: auto;
-}      
+.producto {
+  background: white;      
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;            
+  box-sizing: border-box;
+}
 
+.producto img {
+  max-width: 100%;        
+  height: auto;
+  border-radius: 5px;
+}
+   
 .producto-container {
   background-color: #D3D3D3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
   gap: 8px;
   justify-items: center;
   margin: 10px 0;
+  padding: 10px;
 }
+
+/* Tablet y móvil normal */
+@media (max-width: 768px) {
+  .producto-container {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+/* Móviles muy chicos */
+@media (max-width: 400px) {
+  .producto-container {
+    grid-template-columns: 1fr; 
+  }
+}
+
 .img-same{
     width: 100%;
     height: 250px; 

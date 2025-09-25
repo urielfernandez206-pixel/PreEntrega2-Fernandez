@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'mixins';
+
+.producto {
+  @include mixins.card(variables.$color-blanco, 3px solid variables.$color-negro, variables.$border-radius-card, variables.$ancho-card);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+}
+
+.producto-container {
+  background-color: variables.$color-gris-oscuro;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  justify-items: center;
+  margin: 10px 0;
+  padding: 10px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: 1fr;
+  }
+}

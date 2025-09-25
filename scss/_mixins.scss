@@ -1,0 +1,10 @@
+// Tarjetas reutilizables
+@mixin card($bg-color, $border, $radius, $width) {
+  background-color: $bg-color;
+  border: $border;
+  border-radius: $radius;
+  width: $width;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}

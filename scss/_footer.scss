@@ -1,0 +1,9 @@
+@use 'variables';
+
+.footer {
+  text-align: center;
+  background-color: variables.$color-negro;
+  color: variables.$color-blanco;
+  padding: 10px 0;
+  margin-top: 200px;
+}

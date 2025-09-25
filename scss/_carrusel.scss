@@ -1,0 +1,16 @@
+@use 'variables';
+
+.carrusel-fondo {
+  width: 100%;
+  background-color: variables.$color-gris-medio;
+  border-radius: variables.$border-radius-base;
+  padding: 40px 0;
+}
+
+.carrusel-img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: variables.$border-radius-base;
+  background-color: variables.$color-gris-medio;
+}

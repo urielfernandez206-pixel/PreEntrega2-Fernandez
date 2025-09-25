@@ -5,160 +5,145 @@
 
 .custom-navbar-bg {
   background-color: #F5F5F6 !important;
-    color: black !important;
+  color: #000 !important;
 }
-
 .custom-navbar-bg .nav-link {
-    color: black !important; 
+  color: #000 !important;
 }
-
 .custom-navbar-bg .navbar-brand {
-    color: black !important; 
+  color: #000 !important;
 }
 
 .carrusel-fondo {
-    width: 100%;
-    background-color: #E0E0E0;
-    border-radius: 10px;
-    padding: 40px 0;
+  width: 100%;
+  background-color: #E0E0E0;
+  border-radius: 10px;
+  padding: 40px 0;
 }
 
 .carrusel-img {
-    width: 450px;
-    height: 450px;
-    object-fit: cover;
-    border-radius: 10px;
-    background-color: #E0E0E0;
-}
-
-main h2{
-    text-align: center;
-}
-.Destacados{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.Destacados-1, .Destacados-2, .Destacados-3, .Destacados-4{
-    border: 3px solid black;
-    padding: 10px;
-    text-align: center;
-    width: 300px;
-    border-radius: 15px;
-}
-.Destacados-1 img, .Destacados-2 img, .Destacados-3 img, .Destacados-4 img{
-    max-width: 100%;
-    height: auto;
-}
-
-.footer{
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-    margin-top: 200px;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #E0E0E0;
 }
 
 .producto {
-  background-color: white;  
-  border: 3px solid black;
-  padding: 4px;
-  text-align: center;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 15px;
   width: 300px;
-  border-radius: 15px; 
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-.producto {
-  background: white;      
-  border-radius: 8px;
-  padding: 10px;
-  text-align: center;
-  width: 100%;            
-  box-sizing: border-box;
-}
-
 .producto img {
-  max-width: 100%;        
+  max-width: 100%;
   height: auto;
   border-radius: 5px;
 }
-   
+
 .producto-container {
   background-color: #D3D3D3;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   justify-items: center;
   margin: 10px 0;
   padding: 10px;
 }
-
-/* Tablet y móvil normal */
 @media (max-width: 768px) {
   .producto-container {
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-
-/* Móviles muy chicos */
 @media (max-width: 400px) {
   .producto-container {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
   }
 }
 
-.img-same{
-    width: 100%;
-    height: 250px; 
-    object-fit: cover; 
-    border-radius: 8px;
+main h2 {
+  text-align: center;
 }
-.Historia{
+
+.Destacados {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.Destacados-1, .Destacados-2, .Destacados-3, .Destacados-4 {
+  border: 3px solid #000;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  border-radius: 15px;
+}
+.Destacados-1 img, .Destacados-2 img, .Destacados-3 img, .Destacados-4 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 200px;
+}
+
+.img-same {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.Historia {
   margin: 20px;
   text-align: center;
 }
 
 .circle-img {
-  width: 200px;        
-  height: 200px;       
-  border-radius: 50%;  
-  object-fit: cover;     
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.contacto{
-    text-align: center;
-    margin: 20px;
+.contacto {
+  text-align: center;
+  margin: 20px;
+  font-family: "Libertinus Serif Display", serif;
 }
 
-.map-container{
+.map-container {
   border-radius: 10px;
   overflow: hidden;
 }
 
 .redes-sociales a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
-.index{
-    font-family: 'Cormorant Garamond', serif;
-    font: 1em sans-serif;
+.index {
+  font-family: "Cormorant Garamond", serif;
+  font: 1em sans-serif;
 }
 
-.productos{
-    font-family: 'Sawarabi Gothic', sans-serif;
+.productos {
+  font-family: "Sawarabi Gothic", sans-serif;
 }
 
-.nosotros{
-    font-family: 'Roboto Slab', serif;
+.nosotros {
+  font-family: "Roboto Slab", serif;
 }
 
-.contacto{
-    font-family: 'Libertinus Serif Display', serif;
-}
+/*# sourceMappingURL=main.css.map */

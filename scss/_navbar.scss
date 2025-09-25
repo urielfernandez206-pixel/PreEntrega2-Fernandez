@@ -1,0 +1,21 @@
+@use 'variables';
+
+.navbar-brand {
+  img {
+    max-width: 50px;
+    height: auto;
+  }
+}
+
+.custom-navbar-bg {
+  background-color: variables.$color-gris-claro !important;
+  color: variables.$color-negro !important;
+
+  .nav-link {
+    color: variables.$color-negro !important;
+  }
+
+  .navbar-brand {
+    color: variables.$color-negro !important;
+  }
+}

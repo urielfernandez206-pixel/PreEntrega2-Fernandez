@@ -1,0 +1,31 @@
+@use 'variables';
+
+main {
+  h2 {
+    text-align: center;
+  }
+}
+
+.Destacados {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  &-1,
+  &-2,
+  &-3,
+  &-4 {
+    border: 3px solid variables.$color-negro;
+    padding: 10px;
+    text-align: center;
+    width: variables.$ancho-card;
+    border-radius: variables.$border-radius-card;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}

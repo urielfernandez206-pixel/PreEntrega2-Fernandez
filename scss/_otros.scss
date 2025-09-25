@@ -1,0 +1,52 @@
+@use 'variables';
+
+.img-same {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: variables.$border-radius-base;
+}
+
+.Historia {
+  margin: 20px;
+  text-align: center;
+}
+
+.circle-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contacto {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Libertinus Serif Display', serif;
+}
+
+.map-container {
+  border-radius: variables.$border-radius-base;
+  overflow: hidden;
+}
+
+.redes-sociales {
+  a {
+    text-decoration: none;
+    color: variables.$color-negro;
+    font-weight: bold;
+  }
+}
+
+.index {
+  font-family: 'Cormorant Garamond', serif;
+  font: 1em sans-serif;
+}
+
+.productos {
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.nosotros {
+  font-family: 'Roboto Slab', serif;
+}

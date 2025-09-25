@@ -9,3 +9,11 @@ $color-gris-oscuro: #D3D3D3;
 $border-radius-base: 10px;
 $border-radius-card: 15px;
 $ancho-card: 300px;
+
+//gradiantes
+$gradiante: linear-gradient(90deg, rgba(26, 26, 26, 1) 0%, rgba(189, 187, 187, 1) 78%);
+$color-fondo: #1a1a1a;
+
+//fondo productos
+$gradiante-dos: linear-gradient(90deg,rgba(202, 214, 224, 1) 0%, rgba(213, 224, 217, 1) 61%, rgba(235, 231, 213, 1) 100%);
+$color-fondo-dos: #cad6e0;

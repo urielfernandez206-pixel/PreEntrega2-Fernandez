@@ -39,15 +39,25 @@
   box-sizing: border-box;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .producto img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+.producto:hover img {
+  transform: scale(1.1);
 }
 
 .producto-container {
-  background-color: #D3D3D3;
+  background: #cad6e0;
+  background: linear-gradient(90deg, rgb(202, 214, 224) 0%, rgb(213, 224, 217) 61%, rgb(235, 231, 213) 100%);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
@@ -91,9 +101,10 @@ main h2 {
 
 .footer {
   text-align: center;
-  background-color: #000;
+  background: #1a1a1a;
+  background: linear-gradient(90deg, rgb(26, 26, 26) 0%, rgb(189, 187, 187) 78%);
   color: #fff;
-  padding: 10px 0;
+  padding: 20px 0;
   margin-top: 200px;
 }
 
@@ -119,7 +130,7 @@ main h2 {
 .contacto {
   text-align: center;
   margin: 20px;
-  font-family: "Libertinus Serif Display", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .map-container {
@@ -139,11 +150,18 @@ main h2 {
 }
 
 .productos {
-  font-family: "Sawarabi Gothic", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .nosotros {
-  font-family: "Roboto Slab", serif;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.Destacados {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.Destacados-1:hover, .Destacados-2:hover, .Destacados-3:hover, .Destacados-4:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */

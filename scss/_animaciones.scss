@@ -1,0 +1,13 @@
+.Destacados{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+  &-1:hover ,
+  &-2:hover ,
+  &-3:hover ,
+  &-4:hover {
+    transform: scale(1.05);
+  }
+}
+
+$transition-time: 0.3s;
+$hover-scale: 1.05;

@@ -65,12 +65,12 @@
   margin: 10px 0;
   padding: 10px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .producto-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   .producto-container {
     grid-template-columns: 1fr;
   }

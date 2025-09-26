@@ -39,12 +39,14 @@
   margin: 10px 0;
   padding: 10px;
 
-  @media (max-width: 768px) {
+ @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media (max-width: 400px) {
+  // Mobile: 1 producto por fila
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 }
+
 

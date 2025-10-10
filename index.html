@@ -1,120 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO -->
-  <title>Orion Sneakers | Zapatillas Exclusivas y Urbanas en Argentina</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Orion| Zapatillas Exclusivas y Urbanas en Argentina</title>
   <meta name="description" content="Orion ofrece las mejores zapatillas urbanas, deportivas y exclusivas. Encontrá tus Air Jordan, Nike, Adidas y más con envío a todo el país.">
   <meta name="keywords" content="zapatillas, sneakers, Air Jordan, Nike, Adidas, calzado urbano, Argentina, Orion Sneakers">
-  <meta name="author" content="Orion Sneakers">
+  <meta name="author" content="Orion ">
 
-    <!--Estilos-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libertinus+Serif+Display&family=Mozilla+Headline:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+  <!-- ESTILOS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 
+  <!-- OPTIMIZACIÓN MOBILE -->
+  <meta name="theme-color" content="#000000">
 </head>
-<body  class="index">
-  
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg custom-navbar-bg">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/Logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center img-fluid">
-      Orion
-    </a>
 
-    <!-- Botón hamburguesa para móvil -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto"> 
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/productos.html">Productos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<body class="index">
 
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg custom-navbar-bg" aria-label="Barra de navegación principal">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/Logo.png" alt="Logo de Orion Sneakers" width="50" height="50" class="img-fluid me-2">
+        <span class="fw-bold">Orion</span>
+      </a>
 
-<!-- CARRUSEL-->
- <div class="carrusel-fondo my-4">
-  <div class="d-flex justify-content-center my-4">
-    <div id="carouselExampleIndicators" class="carousel slide" >
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/zapatillas 1.jpg" class="d-block carrusel-img" alt="Zapatillas">
-        </div>
-        <div class="carousel-item">
-          <img src="img/Zapatillas 4.jpg" class="d-block carrusel-img" alt="Zapatillas">
-        </div>
-        <div class="carousel-item">
-          <img src="img/zapatillas 3.jpg" class="d-block carrusel-img" alt="Zapatillas">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+      <!-- Botón hamburguesa -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/productos.html">Productos</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+        </ul>
+      </div>
     </div>
-   </div>
-  </div>
+  </nav>
 
-<!-- DESTACADOS -->
-<main>
-  <h2>Productos Destacados</h2>
-  <section class="Destacados">
-    
-    <article class="Destacados-1">
-      <img src="img/Destacado 1.jpg" alt="Air Jordan 1 Mid “University Blue / Black<">
-    <h3>Air Jordan 1 Mid “University Blue / Black</h3>
-    <p>$222.735</p>
-    </article>
-    
-    <article class="Destacados-2"><img src="img/Destacado 2.jpg" alt="Air Jordan 1 Retro High OG “Court Purple(2018/2020)">
-    <h3>Air Jordan 1 Retro High OG “Court Purple(2018/2020)</h3>
-    <p>$442.596</p>
-    </article>
-    
-    <article class="Destacados-3"><img src="img/Destacado 3.jpg" alt="Air Jordan 1 Retro High OG “Dark Mocha(2020)">
-    <h3>Air Jordan 1 Retro High OG “Dark Mocha(2020)</h3>
-    <p>$301.770</p>
-    </article>
-   
-    <article class="Destacados-4"><img src="img/Destacado 4.jpg" alt="Air Jordan 1 Retro High OG “Pine Green” (2018/2020)">
-    <h3>Air Jordan 1 Retro High OG “Pine Green” (2018/2020)</h3>
-    <p>$287.400</p>
-    </article>
-  </section>
-</main>
+  <!-- CARRUSEL -->
+  <header class="carrusel-fondo my-4">
+    <div class="d-flex justify-content-center">
+      <div id="carouselExampleIndicators" class="carousel slide" aria-label="Carrusel de productos destacados">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/zapatillas 1.jpg" class="d-block carrusel-img img-fluid" alt="Zapatillas urbanas modernas en color azul y blanco">
+          </div>
+          <div class="carousel-item">
+            <img src="img/zapatillas 4.jpg" class="d-block carrusel-img img-fluid" alt="Zapatillas deportivas negras con detalles en gris">
+          </div>
+          <div class="carousel-item">
+            <img src="img/zapatillas 3.jpg" class="d-block carrusel-img img-fluid" alt="Zapatillas casuales con diseño moderno y suela blanca">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-label="Anterior">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-label="Siguiente">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
 
-<!-- FOOTER -->
- <footer class="footer">
-  <p>Todos los derechos Reservados  Origin@Gmail.com  2025</p>
- </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <!-- PRODUCTOS DESTACADOS -->
+  <main>
+    <section class="Destacados container text-center my-5">
+      <h1 class="mb-4">Productos Destacados</h1>
+
+      <div class="row justify-content-center g-4">
+        <article class="col-12 col-sm-6 col-md-3">
+          <img src="img/Destacado 1.jpg" alt="Air Jordan 1 Mid University Blue Black" class="img-fluid rounded shadow-sm">
+          <h2 class="h5 mt-3">Air Jordan 1 Mid “University Blue / Black”</h2>
+          <p class="fw-semibold">$222.735</p>
+        </article>
+
+        <article class="col-12 col-sm-6 col-md-3">
+          <img src="img/Destacado 2.jpg" alt="Air Jordan 1 Retro High OG Court Purple 2018/2020" class="img-fluid rounded shadow-sm">
+          <h2 class="h5 mt-3">Air Jordan 1 Retro High OG “Court Purple” (2018/2020)</h2>
+          <p class="fw-semibold">$442.596</p>
+        </article>
+
+        <article class="col-12 col-sm-6 col-md-3">
+          <img src="img/Destacado 3.jpg" alt="Air Jordan 1 Retro High OG Dark Mocha 2020" class="img-fluid rounded shadow-sm">
+          <h2 class="h5 mt-3">Air Jordan 1 Retro High OG “Dark Mocha” (2020)</h2>
+          <p class="fw-semibold">$301.770</p>
+        </article>
+
+        <article class="col-12 col-sm-6 col-md-3">
+          <img src="img/Destacado 4.jpg" alt="Air Jordan 1 Retro High OG Pine Green 2018/2020" class="img-fluid rounded shadow-sm">
+          <h2 class="h5 mt-3">Air Jordan 1 Retro High OG “Pine Green” (2018/2020)</h2>
+          <p class="fw-semibold">$287.400</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center py-4">
+    <p class="mb-0">© 2025 Orion Sneakers | Todos los derechos reservados | Contacto: <a href="mailto:origin@gmail.com">origin@gmail.com</a></p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,30 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orion-Contacto</title>
+
+     <!--SEO-->
+    <title>Orion - Contacto | Formulario y ubicación</title>
+    <meta name="description" content="Página de contacto de Orion. Envía tus consultas, encontrá nuestras redes sociales y conocé nuestra ubicación en el mapa.">
+    <meta name="keywords" content="Orion, contacto, formulario, ubicación, redes sociales, atención al cliente">
+    <meta name="author" content="Orion">
+
+      <!-- FUENTES y ESTILOS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Mozilla+Headline:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
+
+    <!-- OPTIMIZACIÓN MOBILE -->
+  <meta name="theme-color" content="#000000">
+
 </head>
 <body>
 
 <!-- navbar -->
-    <nav class="navbar navbar-expand-lg custom-navbar-bg">
+<nav class="navbar navbar-expand-lg custom-navbar-bg">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html">
-      <img src="../img/Logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+      <img src="../img/Logo.png" alt="Logo de Orion" width="50" height="50" class="d-inline-block align-text-center">
       Orion
     </a>
 
-    <!-- Botón hamburguesa para móvil -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto"> 
         <li class="nav-item">
@@ -44,58 +55,61 @@
   </div>
 </nav>
 
+<!-- Contacto -->
+<div class="contacto">
+  <h1>Contacto</h1>
+  <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos a través del siguiente formulario:</p>
 
-  <!-- Contacto -->
-   <div class="contacto">
-    <h2>Contacto</h2>
-    <p>Si tienes alguna pregunta o necesitas más información, no dudes en contactarnos a través del siguiente formulario:</p>
-    <form>
-      <div class="mb-3">
-        <label for="name" class="form-label">Nombre:</label>
-        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
-      </div>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre:</label>
+      <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+    </div>
 
-      <div class="mb-3">
-        <label for="email" class="form-label">Correo Electrónico:</label>
-        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
-      </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo Electrónico:</label>
+      <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+    </div>
 
-      <div class="mb-3">
-        <label for="message" class="form-label">Mensaje:</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
-      </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Mensaje:</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+    </div>
 
-      <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
 
-      <!-- Redes Sociales -->
-      <div class="mt-4 redes-sociales">
-        <h3>Síguenos en nuestras redes sociales</h3>
-        <a href="https://www.facebook.com/share/1Rer824Bf6/?mibextid=wwXIfr" class="me-3">Facebook</a>
-        <a href="https://x.com/Tinegron_" class="me-3">Twitter</a>
-        <a href="https://www.instagram.com/uuurielfernandez" class="me-3">Instagram</a>
-      </div>
+  <!-- Redes Sociales -->
+  <div class="mt-4 redes-sociales">
+    <h2>Síguenos en nuestras redes sociales</h2>
+    <a href="https://www.facebook.com/share/1Rer824Bf6/?mibextid=wwXIfr" class="me-3">Facebook</a>
+    <a href="https://x.com/Tinegron_" class="me-3">Twitter</a>
+    <a href="https://www.instagram.com/uuurielfernandez" class="me-3">Instagram</a>
+  </div>
 
-    <!-- mapa -->
-     <div class="mt-4">
-  <h3>Dónde estamos</h3>
-  <div class="map-container">
-     <iframe 
-       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.725697471522!2d-58.38159258477249!3d-34.60368458045906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab0f38f1f3d%3A0x2eaf7dfd9d1b4f7!2sObelisco!5e0!3m2!1ses!2sar!4v1679678191079!5m2!1ses!2sar" 
-       width="100%" 
-       height="400" 
-       style="border:0;" 
-       allowfullscreen="" 
-       loading="lazy">
-     </iframe>
+  <!-- mapa -->
+  <div class="mt-4">
+    <h2>Dónde estamos</h2>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.725697471522!2d-58.38159258477249!3d-34.60368458045906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab0f38f1f3d%3A0x2eaf7dfd9d1b4f7!2sObelisco!5e0!3m2!1ses!2sar!4v1679678191079!5m2!1ses!2sar" 
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        title="Ubicación de Orion en Buenos Aires"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </div>
 </div>
 
-   </div>
 <!-- FOOTER -->
- <footer class="footer">
+<footer class="footer">
   <p>Todos los derechos Reservados  Origin@Gmail.com  2025</p>
- </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
